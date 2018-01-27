@@ -21,7 +21,7 @@
     "url": "https://github.com/bond-agency/react-flowtype/issues"
   },
   "homepage": "https://github.com/bond-agency/react-flowtype#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^15.4.1"
   },
   "devDependencies": {
