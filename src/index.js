@@ -1,7 +1,7 @@
-import React, {PropTypes} from 'react'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 export default class FlowType extends React.Component {
-
   constructor () {
     super()
     this.updateWidthFont = this.updateWidthFont.bind(this)
@@ -44,7 +44,7 @@ export default class FlowType extends React.Component {
     let fontBase = width / settings.fontRatio
     let fontSize = fontBase > settings.maxFont ? settings.maxFont : fontBase < settings.minFont ? settings.minFont : fontBase
     fontSize = Math.round(fontSize)
-    this.setState({fontSize: fontSize})
+    this.setState({ fontSize: fontSize })
   }
 
   render () {
@@ -54,7 +54,7 @@ export default class FlowType extends React.Component {
       fontSize = this.props.default || null
     }
 
-    let divStyle = (fontSize) ? {'fontSize': fontSize + 'px'} : {}
+    let divStyle = (fontSize) ? { 'fontSize': fontSize + 'px' } : {}
 
     return (
       <div style={divStyle} ref='textBody'>

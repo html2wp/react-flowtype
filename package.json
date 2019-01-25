@@ -1,6 +1,6 @@
 {
   "name": "react-flowtype",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "React implementation of flowtype.js: font-size based on element width. Allows you to keep the ideal amount of characters per line, while scaling font size.",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bond-agency/react-flowtype#readme",
   "dependencies": {
-      "react": "^16.2.0"
+      "react": "^16.7.0"
   },
   "devDependencies": {
     "webpack": "^1.14.0",
